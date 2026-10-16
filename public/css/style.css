@@ -10,3 +10,6 @@ line-height: 1.6;
 color: var(--color-text);
 background-color: var(--color-primary);
 }
+
+a{color:#0457ca}
+a:hover{color: #0457ca;}
