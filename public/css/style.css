@@ -1,3 +1,7 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;}
 :root {
 --color-primary: #f2f2f2;
 --color-text: #192331;
@@ -9,7 +13,25 @@ font-family: var(--font-body);
 line-height: 1.6;
 color: var(--color-text);
 background-color: var(--color-primary);
+margin: 0;
+}
+
+.site-nav a {
+color: var(--color-text);
 }
 
 a{color:#0457ca}
-a:hover{color: #0457ca;}
+a:hover{color: #9f0000;}
+main{
+    max-width: 800px ;
+    margin: 0 auto;
+}
+
+.project-card{
+    background-color: #cccccc;
+    padding: 1.5rem;
+    border: 1px;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
